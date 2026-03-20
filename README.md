@@ -24,5 +24,5 @@ The victim models we use in the experiments are [PointNet](https://github.com/ch
 ### Generate adversarial examples by attacking PointNet:
 
 ```
-python main.py --dataset ModelNet40 --data_path /your/path/to/dataset/ --transfer_attack_method WAAttack --surrogate_model pointnet_cls --target_model pointnet_cls
+python main.py --dataset ModelNet40 --data_path /your/path/to/dataset/ --transfer_attack_method WAAttack
 ```
